@@ -1,1 +1,545 @@
-<h1>Ciao Questo è il mio sito!</h1>
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://cue.static.app/ -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Mio Sito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./assets/css2" rel="stylesheet">
+  <script src="./assets/jquery-3.5.0.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Cue - Smart widgets to empower users">
+  <meta property="og:description"
+    content="Create smart widgets to deliver on-demand information at the right place, at the right time.">
+  <meta property="og:image" content="https://cue.static.app/cue-og.png">
+  <meta property="og:url" content="https://cue.static.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://cue.static.app/">
+  <meta name="twitter:creator" content="@echojanz">
+  <meta name="twitter:title" content="Cue - Smart widgets to empower users">
+  <meta name="twitter:description"
+    content="Create smart widgets to deliver on-demand information at the right place, at the right time.">
+  <meta name="twitter:image" content="https://cue.static.app/cue-og.png">
+  <script async="" src="./assets/sb.js"></script>
+
+  <style type="text/css">
+    html {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Manrope', sans-serif;
+      font-weight: normal;
+      text-align: center;
+      color: #7E878E;
+      font-size: 24px;
+      line-height: 40px;
+      max-height: 100vh;
+      max-width: 100vw;
+      overflow: hidden;
+    }
+
+    .logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+
+    h1 {
+      font-size: 72px;
+      letter-spacing: -1px;
+      line-height: 88px;
+      margin-bottom: 16px;
+      font-weight: 600;
+      align-self: center;
+      margin-top: 35vh;
+      color: #202830;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    p {
+      margin: 0;
+      font-weight: 400;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+
+    .shape-1,
+    .shape-2,
+    .shape-3,
+    .shape-4 {
+      position: absolute;
+      z-index: -1;
+      height: 700px;
+      width: 700px;
+      -webkit-animation: move 4s ease-in-out infinite;
+      /* Safari 4+ */
+      -moz-animation: move 4s ease-in-out infinite;
+      /* Fx 5+ */
+      -o-animation: move 4s ease-in-out infinite;
+      /* Opera 12+ */
+      animation: move 4s ease-in-out infinite;
+      /* IE 10+, Fx 29+ */
+      filter: blur(40px);
+      mix-blend-mode: multiply;
+    }
+
+
+    .shape-1 {
+      bottom: -500px;
+      left: -200px;
+      background-color: #FFE5E3;
+      border-radius: 50%;
+      animation-delay: 0s;
+    }
+
+    .shape-2 {
+      bottom: -600px;
+      left: 20vw;
+      background-color: #FFF4CD;
+      border-radius: 50%;
+      animation-delay: 1.5s;
+    }
+
+    .shape-3 {
+      bottom: -550px;
+      right: 15vw;
+      background-color: #ECF8CA;
+      border-radius: 50%;
+      animation-delay: 0.5s;
+    }
+
+    .shape-4 {
+      bottom: -450px;
+      right: -200px;
+      background-color: #D4F6F8;
+      border-radius: 50%;
+      animation-delay: s;
+    }
+
+
+    @-webkit-keyframes move {
+      0% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+
+      50% {
+        margin-bottom: 200px;
+        opacity: 1;
+      }
+
+      100% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+    }
+
+    @-moz-keyframes move {
+      0% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+
+      50% {
+        margin-bottom: 200px;
+        opacity: 1;
+      }
+
+      100% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+    }
+
+    @-o-keyframes move {
+      0% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+
+      50% {
+        margin-bottom: 200px;
+        opacity: 1;
+      }
+
+      100% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+    }
+
+    @keyframes move {
+      0% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+
+      50% {
+        margin-bottom: 200px;
+        opacity: 1;
+      }
+
+      100% {
+        margin-bottom: 0;
+        opacity: 0.5;
+      }
+    }
+
+
+    @-webkit-keyframes appear {
+      0% {
+        margin-bottom: -10px;
+        opacity: 0;
+        width: 24px;
+      }
+
+      20% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      80% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      100% {
+        margin-bottom: 0px;
+        width: 198px;
+      }
+    }
+
+    @-moz-keyframes appear {
+      0% {
+        margin-bottom: -10px;
+        opacity: 0;
+        width: 24px;
+      }
+
+      20% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      80% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      100% {
+        margin-bottom: 0px;
+        width: 198px;
+      }
+    }
+
+    @-o-keyframes appear {
+      0% {
+        margin-bottom: -10px;
+        opacity: 0;
+        width: 24px;
+      }
+
+      20% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      80% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      100% {
+        margin-bottom: 0px;
+        width: 198px;
+      }
+    }
+
+    @keyframes appear {
+      0% {
+        margin-bottom: -10px;
+        opacity: 0;
+        width: 24px;
+      }
+
+      20% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      80% {
+        margin-bottom: 0px;
+        opacity: 1;
+        width: 24px;
+      }
+
+      100% {
+        margin-bottom: 0px;
+        width: 198px;
+      }
+    }
+
+
+
+    .toggle {
+
+      position: absolute;
+      right: 40px;
+      bottom: 40px;
+      padding: 8px;
+      font-size: 14px;
+      line-height: 24px;
+      background: rgba(32, 40, 48, 0.8);
+      display: flex;
+      align-items: center;
+      color: #fff;
+      text-decoration: none;
+      width: 24px;
+      white-space: nowrap;
+      text-align: left;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      -webkit-animation: appear 3s ease-in-out forwards;
+      /* Safari 4+ */
+      -moz-animation: appear 3s ease-in-out forwards;
+      /* Fx 5+ */
+      -o-animation: appear 3s ease-in-out forwards;
+      /* Opera 12+ */
+      animation: appear 3s ease-in-out forwards;
+      /* IE 10+, Fx 29+ */
+    }
+
+    .toggle img {
+      margin-right: 8px;
+      max-width: 24px !important;
+      height: auto;
+    }
+
+    .toggle:hover {
+      background: rgba(32, 40, 48, 0.7);
+    }
+
+    .toggle:active {
+      background: rgba(32, 40, 48, 0.9);
+    }
+
+    .widget {
+
+      background: #fff;
+      border-radius: 24px;
+      position: absolute;
+      right: 40px;
+      bottom: 94px;
+      width: 272px;
+      padding: 24px;
+      line-height: 24px;
+      height: auto;
+      display: block;
+      font-size: 14px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 3px 5px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.05);
+      text-align: left;
+      transition: all 0.5s ease;
+      opacity: 0;
+      cursor: default;
+      transition: opacity 0.2s ease-in-out;
+
+
+    }
+
+
+    .widget>* {
+      cursor: default;
+    }
+
+    .widget img {
+
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+
+    }
+
+    .widget p {
+      margin-top: 12px;
+    }
+
+
+    .green-btn {
+
+      width: 100%;
+      height: 100%;
+      background: #81CE52;
+      padding: 8px 0px;
+      line-height: 24px;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      border-radius: 20px;
+
+    }
+
+    h2 {
+      margin: 0px 0px 16px 0px;
+      color: #202830;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -0.2px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .open {
+      content: url(x.svg);
+    }
+
+    .close {
+      content: "close"
+    }
+
+    .reveal {
+
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+
+    }
+
+
+    .reveal .green-btn {
+      cursor: pointer;
+       !important;
+    }
+
+    .mini {
+      width: 24px !important;
+      overflow: hidden;
+    }
+
+    .mute {
+      opacity: 0.25;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .widget p {
+      color: #4F565C;
+    }
+
+
+
+    @media only screen and (max-width: 1024px) {
+
+      br {
+        display: none;
+      }
+
+      h1,
+      #badi {
+        max-width: 80%;
+        margin: 0px auto;
+      }
+
+      h1 {
+        margin-top: 140px;
+        margin-bottom: 24px;
+        font-size: 56px;
+        line-height: 64px;
+      }
+
+      .shape-1,
+      .shape-2,
+      .shape-3,
+      .shape-4 {
+        width: 250px;
+        height: 250px;
+      }
+
+      .shape-1 {
+        bottom: -120px;
+        left: -100px;
+      }
+
+      .shape-2 {
+        bottom: -100px;
+        left: 10vw;
+      }
+
+      .shape-3 {
+        bottom: -120px;
+        right: 5vw;
+      }
+
+      .shape-4 {
+        bottom: -130px;
+        right: -100px;
+      }
+
+    }
+  </style>
+</head>
+
+
+
+
+
+<body>
+
+
+
+  <img src="./assets/cue.svg" class="logo">
+
+  <h1>Mio sito di Prova <br> Altra riga!</h1>
+  <p id="badi">Il mio primo esperimento.</p>
+
+
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+  <div class="shape-3"></div>
+  <div class="shape-4"></div>
+
+
+  <div class="widget" id="wdg">
+
+    <img src="./assets/cues.png">
+
+    <h2>A tool to create custom widgets like this</h2>
+    <p>🎨 Add rich text, images, resources, forms, buttons... Make it your own.</p>
+    <p>🧠 Customize triggering rules based on URLs, events or JS</p>
+    <p>🚀 Provide help, ask for permissions, collect feedback or track NPS scores... It's up to you.</p>
+
+    <a data-splitbee-event="beta" href="https://ekremelmas153118.typeform.com/to/TOUPTbRC" class="green-btn">Join the
+      beta</a>
+
+  </div>
+
+
+  <script type="text/javascript">
+    $("#toggle").click(function () {
+      $("#wdg").toggleClass("reveal");
+      $('#icon').toggleClass("open");
+      $('#toggle').toggleClass("mini");
+      $('h1, #badi').toggleClass("mute");
+    });
+  </script>
+
+
+</body>
+
+</html>
